@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.titulo { 
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    align-items: baseline;
+}
+
+h1 {
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin: 2px;
+}   
+
+button {
+    background-color: transparent;
+    fill: white;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+svg {
+    height: 18px;
+}
+
+.mensagens {
+    color: white;
+    padding-top: 15px;
+}
+
+hr {
+    border: 1px dotted white;   
+}
+
+.mensagemremetente {
+    display: flex;
+    align-items: center;
+    background-color: #3b4a54;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.mensagemdestinatario {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    background-color: #00a884;;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.check {
+    fill: aqua;
+}
