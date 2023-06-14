@@ -32,6 +32,12 @@ button {
     border: none;
     width: fit-content;
     height: fit-content;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    fill: #3b4a54;
 }
 
 svg {
@@ -55,7 +61,9 @@ hr {
     border-radius: 10px;
     margin-left: 10px;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 20px; 
+    position: relative;
+    margin: 5px;
 }
 
 .mensagemdestinatario {
@@ -65,12 +73,41 @@ hr {
     background-color: #00a884;;
     width: fit-content;
     border-radius: 10px;
-    margin-left: 10px;
+    margin: 5px;
+    margin-left: auto;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 25px;
+    position: relative;
+    margin-right: 10px;
+    
 
 }
 
-.check {
+.check1 {
     fill: aqua;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    width: 10px;
+}
+
+.check2 {
+    fill: aqua;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    width: 10px;
+}
+
+.seta {
+    fill: none;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    width: 10px;
+}
+
+.seta:hover {
+    fill: white;
+    cursor: pointer;
 }
