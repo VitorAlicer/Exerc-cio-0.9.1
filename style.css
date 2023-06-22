@@ -83,15 +83,7 @@ hr {
 
 }
 
-.check1 {
-    fill: aqua;
-    position: absolute;
-    bottom: 2px;
-    right: 1px;
-    width: 10px;
-}
-
-.check2 {
+.check1, .check2 {
     fill: aqua;
     position: absolute;
     bottom: 2px;
@@ -107,7 +99,7 @@ hr {
     width: 10px;
 }
 
-.seta:hover {
+.mensagemremetente:hover .seta, .mensagemdestinatario:hover .seta{
     fill: white;
     cursor: pointer;
 }
